@@ -14,6 +14,6 @@ drop primary key;)
 
 #alter table human
 #add location char(30) not null;
-
-alter table games
-drop comments;
+drop table movie_genres;
+alter table movie_genres
+add constraint mov_gen_pk primary key(gen_id) ;

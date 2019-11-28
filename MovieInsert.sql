@@ -11,10 +11,10 @@ insert into director  values(2093, "Adeniyi","Matson");
 insert into director  values(2094, "Joshua","Matthew");
 
 
-insert into movie values(2908, "Rise of the umpire", 2007, 2, "Kabba", "2007-02-02","Spain");
+insert into movie values(2908, "Rise of the umpire", 1996, 2, "Kabba", "1996-02-02", "Spain");
 insert into movie values(2909, "American Beauty", 2008, 3, "French", "2008-08-12","USA");
-insert into movie values(2910, "Things fall apart", 1998, 1, "Igbo", "1998-05-02","Nigeria");
-insert into movie values(2911, "Eyes wide shut", 1999, 3, "English", "1999-10-11","Canada");
+insert into movie values(2910, "Things fall apart", 1998, 1, "Swahili", "1998-05-02","Ghana");
+insert into movie values(2911, "Eyes wide shut", 1999, 3, "English", "1999-10-11","UK");
 
 
 
@@ -31,13 +31,13 @@ insert into reviewer values(8567, "Jane Gowthy");
 
 insert into rating values(2908, 8564, 4, 8);
 insert into rating values(2909, 8565, 4, 7);
-insert into rating values(2910, 8564, 2, 5);
+insert into rating values(2910, 8567, 2, 5);
 insert into rating values(2911, 8566, 3, 7);
-insert into rating values(2908, 8567, 5, 9);
+
 
 insert into movie_genres values(2908,1142);
 insert into movie_genres values(2909,1145);
-insert into movie_genres values(2910,1143);
+insert into movie_genres values(2910,1144);
 insert into movie_genres values(2911,1143);
 
 
@@ -54,5 +54,4 @@ insert into movie_cast values(0010, 2910, "Fighter");
 insert into movie_direction values(2091,2908);
 insert into movie_direction values(2093,2911);
 insert into movie_direction values(2094,2910);
-insert into movie_direction values(2094,2909);
-insert into movie_direction values(2092,2911);
+insert into movie_direction values(2092,2909);
